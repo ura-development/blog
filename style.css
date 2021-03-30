@@ -1,11 +1,23 @@
 body {
+	background-color: #4b5111;
+}
+
+#Heading {
+	color: #718156;
+	height: 50px;
+	text-align: center;
+	width: auto;
+	font-size: x-large;
+}
+
+#Body {
 	background-color: #4b5338;
-}
-
-Heading {
-	color: #718156;
-}
-
-Body {
-	color: #718156;
+	color: #31282B;
+	
+	width: 900px;
+	height: 1000px; 
+	left: 0px;
+	position: relative;
+	
+	margin:0 auto;
 }
