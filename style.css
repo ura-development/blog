@@ -10,6 +10,28 @@ body {
 	font-size: x-large;
 }
 
+#blog {
+    width: 33%;
+    position: relative;
+    background-color: #6A8E7F;
+}
+
+#about {
+    position: relative;
+    width: 33%;
+    height: 300px;
+    float: left;
+    background-color: #729B79;
+}
+
+#guide {
+    border: solid 1px blue;
+    width: 33%;
+    height: 300px;
+    float: right;
+    background-color: #729B79;
+
+}
 #Body {
 	background-color: #F9DBBD;
 	color: #A6808C;
