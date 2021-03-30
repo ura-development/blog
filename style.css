@@ -6,27 +6,31 @@ body {
 /* unvisited link */
 a:link {
   color: #F9DBBD;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
   color: #F9DBBD;
+  text-decoration: none; 
 }
 
 /* mouse over link */
 a:hover {
   color: #A6808C;
+  text-decoration: none;
 }
 
 /* selected link */
 a:active {
   color: #F9DBBD;
+  text-decoration: none;
 }
 
 #Heading {
 	color: #A6808C;
 	height: 55px;
-	text-align: left;
+	text-align: middle;
 	width: auto;
 	font-size: x-large;
 	vertical-align: middle;
