@@ -13,7 +13,7 @@ body {
 #blog {
     colour: #F9DBBD;
     position: relative;
-    width: 33%;
+    width: 34%;
     float: left;
     height: 40px;
     background-color: #6A8E7F;
@@ -25,7 +25,7 @@ body {
     width: 33%;
     height: 40px;
     float: left;
-    background-color: #729B79;
+    background-color: #8CABBE;
 }
 
 #guide {
@@ -33,7 +33,7 @@ body {
     width: 33%;
     height: 40px;
     float: left;
-    background-color: #729B79;
+    background-color: #8CABBE;
 
 }
 #Body {
