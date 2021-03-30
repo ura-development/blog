@@ -11,23 +11,27 @@ body {
 }
 
 #blog {
-    width: 33%;
+    colour: #F9DBBD;
     position: relative;
+    width: 33%;
+    float: left;
+    height: 40px;
     background-color: #6A8E7F;
 }
 
 #about {
+    colour: #F9DBBD;
     position: relative;
     width: 33%;
-    height: 300px;
+    height: 40px;
     float: left;
     background-color: #729B79;
 }
 
 #guide {
-    border: solid 1px blue;
+    colour: #F9DBBD;
     width: 33%;
-    height: 300px;
+    height: 40px;
     float: right;
     background-color: #729B79;
 
