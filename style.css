@@ -1,5 +1,26 @@
 body {
 	background-color: #3A405A;
+	
+}
+
+/* unvisited link */
+a:link {
+  color: #F9DBBD;
+}
+
+/* visited link */
+a:visited {
+  color: #F9DBBD;
+}
+
+/* mouse over link */
+a:hover {
+  color: #A6808C;
+}
+
+/* selected link */
+a:active {
+  color: #F9DBBD;
 }
 
 #Heading {
@@ -8,6 +29,7 @@ body {
 	text-align: left;
 	width: auto;
 	font-size: x-large;
+	vertical-align: middle;
 }
 
 #blog {
@@ -16,7 +38,8 @@ body {
     width: 34%;
     float: left;
     height: 40px;
-    background-color: #6A8E7F;
+    background-color: #496D83;
+    vertical-align: middle;
 }
 
 #about {
@@ -26,6 +49,7 @@ body {
     height: 40px;
     float: left;
     background-color: #496D83;
+    vertical-align: middle;
 }
 
 #guide {
