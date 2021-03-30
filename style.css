@@ -20,5 +20,6 @@ body {
 	left: 0px;
 	position: relative;
 	
-	margin:0 auto;
+	margin-right: 10%;
+  	margin-left: 10%;
 }
