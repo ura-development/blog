@@ -8,8 +8,6 @@ body {
 	text-align: left;
 	width: auto;
 	font-size: x-large;
-	margin-right: 10%;
-  	margin-left: 10%;
 }
 
 #Body {
@@ -20,8 +18,10 @@ body {
 	width: 900px;
 	height: 1000px; 
 	left: 0px;
-	position: relative;
-	
+	position: relative;	
+}
+
+#text-body {
 	margin-right: 10%;
   	margin-left: 10%;
 }
