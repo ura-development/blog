@@ -81,9 +81,9 @@ img{
 }
 .read-more-btn{
 	backbround-color: black;
-	border:none;
+	border: none;
 	color: white;
-	float:right;
+	float: right;
 	padding: 10px 20px 10px 20px;
 }
 .read-more-btn:hober{
@@ -92,7 +92,7 @@ img{
 .right-content img{
 	height: 200px;
 	width: 200px;
-	border-radius: 50%
+	border-radius: 50%;
 	/* filter: grayscale(1); */
 	display: block;
 	margin-left: auto;
