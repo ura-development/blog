@@ -2,10 +2,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
-#testing{
-	color: #black;
-	backbround-color: #fff9f2;
-}
 
 *{
 	margin: 0;
@@ -15,6 +11,10 @@
 body {
 	font-family: 'Quicksand', sans-serif;
 	background-color: #3A405A;
+}
+#testing{
+	color: #black;
+	backbround-color: #fff9f2;
 }
 nav{
 	display: grid;
