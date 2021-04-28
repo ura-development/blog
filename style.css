@@ -20,6 +20,23 @@ nav{
 	margin-top 3%;
 	grid-gap: 40px;
 }
+li{
+	list-styles: none;
+	display: inline;
+	padding: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+li:hover{
+	font-weight: 900;
+}
+i{
+	margin-right: 10px;
+	cursor: pointer;
+}
+i:hover{
+	transform: scale(1.3);
+}
 
 
 
