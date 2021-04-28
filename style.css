@@ -8,7 +8,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Quicksand';
+	font-family: 'Quicksand', sans-serif;
 	/* background-color: #3A405A;*/
 }
 nav{
@@ -113,7 +113,4 @@ a:active {
 	font-family: 'Quicksand', sans-serif;
 }
 
-#text-body {
-	margin-right: 10%;
-  	margin-left: 10%;
-}
+
