@@ -1,7 +1,27 @@
-body {
-	background-color: #3A405A;
-	
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+body {
+	font-family: 'Quicksand';
+	/* background-color: #3A405A;*/
+}
+nav{
+	display: grid;
+	grid-template-areas;
+	'nav-links accounts' ;
+	width: 60%;
+	margin: auto;
+	margin-top 3%;
+	grid-gap: 40px;
+}
+
+
 
 /* unvisited link */
 a:link {
