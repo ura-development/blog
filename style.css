@@ -37,7 +37,26 @@ i{
 i:hover{
 	transform: scale(1.3);
 }
-
+.header{
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+h1{
+	font-family
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 50;
+}
+h2,h4,h5{
+	font-weight: 100;	
+}
+hr{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+}
+.content-container{}
 
 
 
