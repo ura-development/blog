@@ -105,5 +105,36 @@ img{
 	margin-right: auto;
 	margin-bottom: 2%;
 }
-
-
+.author-caption{
+	font-style: italic;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Quicksand';
+}
+.newsletter{
+	margin-top: 10%;
+	border: 1px solid black;
+	padding: 25px 10px 25px 10px;
+	text-align: center;
+	grid-area: newsletter;
+}
+h5{
+	margin-bottom: 10%;
+}
+input[type = "email"]{
+	padding: 10px 20px 10px 20px;
+	outline: none;
+}
+::placeholder{
+	text-align: center;
+}
+.sub-btn{
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 70px 15px 70px;
+	margin-top: 5%;
+}
+.sub-btn:hover{
+	background-color: #a9a9a9;
+}
