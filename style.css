@@ -261,7 +261,49 @@ footer{
 	
 	
 }
-
+@media(max-width:700px){
+	nav li{
+		display: block;
+	}
+	.content-container{
+		grid-template-areas:
+		'left-content'
+		'right-content' ;
+		grid-gap: 40px;
+		width: 80%;
+		margin: auto;
+	}
+	hr{
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2%;
+		color: #3A405A;
+	}
+	.left-content img{
+		height: 300px;
+		width: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.right-content{
+		diaply: grid;
+		grid-template-areas:
+		'avatar-content'
+		'newsletter'
+		'search'
+		'topics' ;
+		width: 50%;
+		margin: auto;
+	}
+	.newsletter, .topics, .search{
+		margin-top: 3%;
+	}
+	.read-more-btn{
+		float: left;
+	}
+}
 
 
 
