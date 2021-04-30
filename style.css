@@ -1,7 +1,5 @@
-
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-
 
 *{
 	margin: 0;
@@ -24,7 +22,7 @@ nav{
 	margin: auto;
 	margin-top 3%;
 	grid-gap: 40px;
-	colour: #3a405a;
+	color: #a6808c;
 }
 li{
 	list-styles: none;
@@ -47,21 +45,21 @@ i:hover{
 	text-align: center;
 	margin-top: 3%;
 	margin-bottom: 2%;
-	color: white;
+	color: #a6808c;
 }
 h1{
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 50;
 }
-h2,h4,h5{
-	font-weight: 100;	
+h2,h3,h4,h5{
+	font-weight: 50;	
 }
 hr{
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2%;
-	color: #3A405A;
+	color: #a6808c;
 }
 .content-container{
 	display: grid;
@@ -71,15 +69,24 @@ hr{
 	margin: auto;
 	grid-gap: 50px;
 	text-align: left;
-	
-	
-	
+}
+.blog-content{
+	display: block;
+	box-sizing: border-box;
+	width: 70%;
+	margin: auto;
+	grid-gap: 50px;
+	text-align: left;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	font-size: calc((1 - 0.8) * 1.2vh + 1rem);
+	overflow-wrap: break-word;
 }
 .featured-artical, .another-article{
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
-.another-articalh3, p{
+.another-article, p{
 	margin-bottom: 10px;
 }
 img{
@@ -90,14 +97,14 @@ img{
 	font-family: 'Quicksand';
 }
 .read-more-btn{
-	backbround-color: black;
+	background-color: #202422;
 	border: none;
 	color: white;
 	float: right;
 	padding: 10px 20px 10px 20px;
 }
-.read-more-btn:hober{
-	background-color: #a9a9a9;
+.read-more-btn:hover{
+	background-color: #6a8e7f;
 }
 .right-content img{
 	height: 200px;
@@ -288,7 +295,7 @@ footer{
 		margin-right: auto;
 	}
 	.right-content{
-		diaply: grid;
+		display: grid;
 		grid-template-areas:
 		'avatar-content'
 		'newsletter'
