@@ -1,6 +1,4 @@
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -16,16 +14,16 @@ body {
 }
 nav{
 	display: grid;
-	grid-template-areas;
+	grid-template-areas:
 	'nav-links accounts' ;
 	width: 60%;
 	margin: auto;
-	margin-top 3%;
+	margin-top: 3%;
 	grid-gap: 40px;
 	color: #a6808c;
 }
 li{
-	list-styles: none;
+	list-style: none;
 	display: inline;
 	padding: 10px;
 	text-transform: uppercase;
@@ -70,6 +68,13 @@ hr{
 	grid-gap: 50px;
 	text-align: left;
 }
+.blog-posts-container{
+	display: inline-flex;
+	width: 27%;
+	margin: auto;
+	grid-gap: 5px;
+	text-align: left;
+}
 .blog-content{
 	display: block;
 	box-sizing: border-box;
@@ -92,6 +97,10 @@ hr{
 img{
 	height: 400px;
 	width: 700px;
+}
+.mountstyles{
+	height: 100%;
+	width: 100%;
 }
 .btn{
 	font-family: 'Quicksand';
@@ -123,7 +132,7 @@ img{
 }
 .newsletter{
 	margin-top: 10%;
-	border: 1px solid black;
+	border: 1px solid #202422;
 	padding: 25px 10px 25px 10px;
 	text-align: center;
 	grid-area: newsletter;
@@ -139,14 +148,14 @@ input[type = "email"]{
 	text-align: center;
 }
 .sub-btn{
-	background-color: black;
+	background-color: #202422;
 	border: none;
 	color: white;
 	padding: 15px 70px 15px 70px;
 	margin-top: 5%;
 }
 .sub-btn:hover{
-	background-color: #a9a9a9;
+	background-color: #6a8e7f;
 }
 .search{
 	margin-top: 10%;
@@ -154,7 +163,7 @@ input[type = "email"]{
 	grid-area: search;
 }
 .search h5{
-	background-color: black;
+	background-color: #202422;
 	color: white;
 	padding: 10px;
 }
@@ -166,13 +175,13 @@ input[type = "text"]{
 .search-btn{
 	float: right;
 	padding: 5px 8px;
-	background-color: black;
+	background-color: #202422;
 	border: none;
 	color: white;
 	font-size: 15px;
 }
 .search-btn:hover{
-	background-color: #a9a9a9;
+	background-color: #6a8e7f;
 }
 .topics{
 	margin-top: 10%;
@@ -196,7 +205,7 @@ input[type = "text"]{
 	grid-area: popular-posts;
 }
 .popular-posts h5{
-	background-color: black;
+	background-color: #202422;
 	color: white;
 	padding: 10px;
 }
