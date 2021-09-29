@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0">
+	<title>Ura's blog</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+	<nav>
+		<div class="nav-links">
+			<ul>
+				<li onclick="location.href='../blog-posts.html';">Blog</li>
+				<li onclick="location.href='../guides.html';">Guide</li>
+				<li onclick="location.href='../index.html';">about</li>
+			</ul>
+		</div>
+	</nav>
+	<section class="header">
+		<h1>M E C H A N I C A L  &nbsp; C A F F E I N E </h1>
+		<h4>Weird stuff and mochi</h4>
+	</section>
+
+
+	<div class="testing">
+	<hr>
+	<section class="blog-content">
+		<h1>Dumbshits guide to flashing a keyboard</h1> 
+        <p>Starting notes<br>
+			- hex file: a file that ends with '.hex'. <br>
+			- reset button: the nub thingy at the back of your kb, if you can't see it, see anywhere with 2 holes saying 'rst' or 'reset'<br>
+			- some keyboards are already flashed with a via hex and you just have to download via and sometimes upload a '.json' file<br>
+			</p>
+			<br>
+
+                <h3>Step 1:</h3>
+				<p>Download the keyboards hex file you need. If you are wanting via for your board download off. <br>
+					https://caniusevia.com/docs/download_firmware#0 if its on the list or if its said to be via compatible the product page/owners resources (not all boards have via compatability).
+					</p> <br>
+
+				<h3>Step 2:</h3>
+				<p>Download qmk toolbox for your os (supports unix, windows and mac) and install it.
+					Make sure to say yes to installing drivers.</p>
+					<br>
+				<h3>Step 3:</h3>
+				<p>Open up qmk toolbox and select your boards microcontroller. <br>
+					Most boards are atmega32a4's.</p> <br>
+
+				<h3>Step 4:</h3>
+				<p>Find the keyboards "reset" button on the pcb or sites mentioned keys to hold for resetting.
+For holding keys you have to hold the key or combination while plugging in the keyboard. <br>
+For the reset button just press it. <br>
+After the keyboard has a reset it should show this </p> <br>
+				<h3>Step 5:</h3> 
+				<p>Select the file on your computer that has been downloaded from step 1 </p> <br>
+					<br>
+				<p>If you have done all the steps before press flash. <br>
+					It should show up like this</p> <br>
+
+				<p>You now have a flashed keyboard.<br>
+					unplug and replug and it should be working as intended.
+					</p>
+					<br>
+					<br>
+				<h1>Extended guide</h1>
+					<p>If via doesn't show the keyboard? <br>
+					Some boards like the kbd67 lite you need to flash a '.json' file</p>
+		
+	</section>
+	</div>
+</body>
+</html>
